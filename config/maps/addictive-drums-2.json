@@ -1,0 +1,40 @@
+{
+    "library_name": "Addictive Drums 2",
+    "note_to_canonical": {
+      "36": "KICK_1_OPEN_HIT",
+      "35": "KICK_2_OPEN_HIT",
+      
+      "38": "SNARE_CENTER",
+      "39": "SNARE_RIMSHOT",
+      "42": "SNARE_SIDESTICK",
+      
+      "71": "TOM_1_HIT",
+      "69": "TOM_2_HIT",
+      "67": "TOM_3_HIT",
+      "65": "TOM_4_HIT",
+      "62": "TOM_5_HIT",
+      
+      "48": "HIHAT_CLOSED_TIP",
+      "49": "HIHAT_CLOSED_EDGE",
+      "50": "HIHAT_OPEN_TIGHT",
+      "51": "HIHAT_OPEN_HALF",
+      "52": "HIHAT_OPEN_MAX",
+      "44": "HIHAT_FOOT_CLOSE",
+      
+      "60": "RIDE_BOW",
+      "61": "RIDE_BELL",
+      "63": "RIDE_EDGE",
+      
+      "77": "CYMBAL_1_HIT",
+      "79": "CYMBAL_2_HIT",
+      "81": "CYMBAL_3_HIT"
+    },
+    "choke_handling": {
+      "system": "discrete_notes",
+      "note_to_choke_id": {
+        "78": "CYMBAL_1_CHOKE",
+        "80": "CYMBAL_2_CHOKE",
+        "82": "CYMBAL_3_CHOKE"
+      }
+    }
+  }

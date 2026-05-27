@@ -1,0 +1,25 @@
+{
+    "version": "1.3.0",
+    "kit_pieces": {
+      "KICK_1": ["OPEN_HIT", "CLOSED_HIT"],
+      "KICK_2": ["OPEN_HIT", "CLOSED_HIT"],
+      "SNARE": ["CENTER", "RIMSHOT", "SIDESTICK"],
+      "TOM_1": ["HIT"],
+      "TOM_2": ["HIT"],
+      "TOM_3": ["HIT"],
+      "TOM_4": ["HIT"],
+      "TOM_5": ["HIT"],
+      "HIHAT": ["CLOSED_TIP", "CLOSED_EDGE", "OPEN_TIGHT", "OPEN_HALF", "OPEN_MAX", "FOOT_CLOSE"],
+      "RIDE": ["BOW", "BELL", "EDGE"],
+      "CYMBAL_1": ["HIT", "CHOKE"],
+      "CYMBAL_2": ["HIT", "CHOKE"],
+      "CYMBAL_3": ["HIT", "CHOKE"],
+      "CYMBAL_4": ["HIT", "CHOKE"],
+      "CYMBAL_5": ["HIT", "CHOKE"]
+    },
+    "global_fallbacks": {
+      "KICK_2_OPEN_HIT": ["KICK_1_OPEN_HIT"],
+      "KICK_2_CLOSED_HIT": ["KICK_1_CLOSED_HIT", "KICK_1_OPEN_HIT"],
+      "KICK_1_CLOSED_HIT": ["KICK_1_OPEN_HIT"]
+    }
+  }
